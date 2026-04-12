@@ -163,7 +163,7 @@ function DashboardContent() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 to-slate-100">
+    <div className="min-h-screen bg-linear-to-br from-slate-50 to-slate-100">
       {/* Header */}
       <header className="bg-white border-b sticky top-0 z-10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
@@ -248,7 +248,7 @@ function DashboardContent() {
         </div>
 
         {/* Sección de compra de créditos */}
-        <div className="bg-gradient-to-r from-blue-600 to-indigo-600 rounded-xl shadow-lg p-6 mb-8 text-white">
+        <div className="bg-linear-to-r from-blue-600 to-indigo-600 rounded-xl shadow-lg p-6 mb-8 text-white">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div>
               <h2 className="text-xl font-bold mb-2">¿Necesitas más créditos?</h2>
