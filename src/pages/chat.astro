@@ -1,0 +1,11 @@
+---
+// src/pages/chat.astro
+import Layout from '../layouts/Layout.astro';
+import ChatForm from '../components/Chat';
+---
+
+<Layout title="Chat Legal - Asistente IA">
+  <main>
+    <ChatForm client:load />
+  </main>
+</Layout>

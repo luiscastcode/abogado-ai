@@ -1,11 +1,55 @@
 ---
-import Welcome from '../components/Welcome.astro';
 import Layout from '../layouts/Layout.astro';
-
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
 ---
 
-<Layout>
-	<Welcome />
+<Layout title="Asistente Legal IA para Abogados en Venezuela">
+  <main class="min-h-screen bg-linear-to-b from-slate-50 to-slate-100">
+    <!-- Hero Section -->
+    <section class="container mx-auto px-4 py-20 text-center">
+      <h1 class="text-5xl font-bold text-slate-800 mb-4">
+        Tu Asistente Legal con <span class="text-blue-600">IA</span>
+      </h1>
+      <p class="text-xl text-slate-600 max-w-2xl mx-auto mb-8">
+        Consulta leyes venezolanas, obtén artículos relevantes y ahorra horas de investigación.
+      </p>
+      <div class="flex gap-4 justify-center">
+        <a href="/chat" class="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition">
+          Comenzar ahora →
+        </a>
+        <a href="#como-funciona" class="border border-slate-300 px-6 py-3 rounded-lg hover:bg-slate-50">
+          Cómo funciona
+        </a>
+      </div>
+    </section>
+    
+    <!-- Características -->
+    <section id="como-funciona" class="container mx-auto px-4 py-16">
+      <h2 class="text-3xl font-bold text-center mb-12">¿Qué hace nuestro asistente?</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white p-6 rounded-xl shadow-sm">
+          <div class="text-4xl mb-4">📚</div>
+          <h3 class="font-bold text-xl mb-2">Base Legal Venezolana</h3>
+          <p class="text-slate-600">Accede a leyes, códigos y jurisprudencias actualizadas.</p>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow-sm">
+          <div class="text-4xl mb-4">⚡</div>
+          <h3 class="font-bold text-xl mb-2">Búsqueda Semántica</h3>
+          <p class="text-slate-600">Encuentra artículos relevantes aunque no uses las palabras exactas.</p>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow-sm">
+          <div class="text-4xl mb-4">🔒</div>
+          <h3 class="font-bold text-xl mb-2">Confidencialidad</h3>
+          <p class="text-slate-600">Tus consultas no se usan para entrenar modelos.</p>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Aviso Legal Importante -->
+    <div class="bg-amber-50 border-l-4 border-amber-500 p-4 mx-auto max-w-3xl mb-16">
+      <p class="text-sm text-amber-800">
+        ⚖️ <strong>Aviso importante:</strong> Este asistente es una herramienta de apoyo a la investigación legal.
+        No reemplaza el criterio ni la asesoría de un abogado colegiado.
+      </p>
+    </div>
+  </main>
 </Layout>
