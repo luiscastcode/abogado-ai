@@ -2,10 +2,13 @@
 // src/pages/chat.astro
 import Layout from '../layouts/Layout.astro';
 import ChatForm from '../components/Chat';
+import ProtectedRoute from '../components/ProtectedRoute';
 ---
 
 <Layout title="Chat Legal - Asistente IA">
   <main>
-    <ChatForm client:load />
+    <ProtectedRoute client:load>
+      <ChatForm client:load />
+    </ProtectedRoute>
   </main>
 </Layout>

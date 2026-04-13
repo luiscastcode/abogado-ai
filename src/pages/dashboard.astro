@@ -1,11 +1,14 @@
 ---
 // src/pages/dashboard.astro
 import Layout from '../layouts/Layout.astro';
-import Dashboard from '../components/Dashboard';
+import DashboardPage from '../components/Dashboard';
+import ProtectedRoute from '../components/ProtectedRoute';
 ---
 
 <Layout title="Dashboard - Asistente Legal IA">
   <main>
-    <Dashboard client:load />
+    <ProtectedRoute client:load>
+      <DashboardPage client:load />
+    </ProtectedRoute>
   </main>
 </Layout>
