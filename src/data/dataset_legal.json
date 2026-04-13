@@ -1,0 +1,522 @@
+[
+  {
+    "id": "VEN-SEN-202602-000001",
+    "tipo": "sentencia",
+    "fuente": "TSJ",
+    "tribunal": "Tribunal Supremo de Justicia",
+    "fecha_documento": "2024-01-15",
+    "materia": "laboral",
+    "submateria": null,
+    "partes": {
+      "demandante": "anonimizado",
+      "demandado": "anonimizado"
+    },
+    "texto": "Despido injustificado",
+    "fallo": null,
+    "monto_demanda": null,
+    "tags": [
+      []
+    ],
+    "metadata": {
+      "fecha_scraping": "2026-02-23T17:11:56.443Z",
+      "url_fuente": "",
+      "idioma": "es-VE",
+      "version": "1.0"
+    },
+    "licencia": "CC0 1.0 Universal"
+  },
+  {
+    "id": "VEN-SEN-202602-000002",
+    "tipo": "sentencia",
+    "fuente": "TSJ",
+    "tribunal": "Tribunal Supremo de Justicia",
+    "fecha_documento": "2024-01-16",
+    "materia": "familia",
+    "submateria": null,
+    "partes": {
+      "demandante": "anonimizado",
+      "demandado": "anonimizado"
+    },
+    "texto": "Divorcio mutuo acuerdo",
+    "fallo": null,
+    "monto_demanda": null,
+    "tags": [
+      []
+    ],
+    "metadata": {
+      "fecha_scraping": "2026-02-23T17:11:56.453Z",
+      "url_fuente": "",
+      "idioma": "es-VE",
+      "version": "1.0"
+    },
+    "licencia": "CC0 1.0 Universal"
+  },
+  {
+    "id": "VEN-SEN-202602-000003",
+    "tipo": "sentencia",
+    "fuente": "TSJ",
+    "tribunal": "Tribunal Supremo de Justicia",
+    "fecha_documento": "2024-01-17",
+    "materia": "penal",
+    "submateria": null,
+    "partes": {
+      "demandante": "anonimizado",
+      "demandado": "anonimizado"
+    },
+    "texto": "Robo aggravate",
+    "fallo": null,
+    "monto_demanda": null,
+    "tags": [
+      []
+    ],
+    "metadata": {
+      "fecha_scraping": "2026-02-23T17:11:56.453Z",
+      "url_fuente": "",
+      "idioma": "es-VE",
+      "version": "1.0"
+    },
+    "licencia": "CC0 1.0 Universal"
+  },
+  {
+    "id": "VEN-SEN-202602-000004",
+    "tipo": "sentencia",
+    "fuente": "TSJ",
+    "tribunal": "Tribunal Supremo de Justicia",
+    "fecha_documento": "2024-01-18",
+    "materia": "tributario",
+    "submateria": null,
+    "partes": {
+      "demandante": "anonimizado",
+      "demandado": "anonimizado"
+    },
+    "texto": "Deuda tributaria",
+    "fallo": null,
+    "monto_demanda": null,
+    "tags": [
+      []
+    ],
+    "metadata": {
+      "fecha_scraping": "2026-02-23T17:11:56.453Z",
+      "url_fuente": "",
+      "idioma": "es-VE",
+      "version": "1.0"
+    },
+    "licencia": "CC0 1.0 Universal"
+  },
+  {
+    "id": "VEN-SEN-202602-000005",
+    "tipo": "sentencia",
+    "fuente": "TSJ",
+    "tribunal": "Tribunal Supremo de Justicia",
+    "fecha_documento": "2024-01-19",
+    "materia": "civil",
+    "submateria": null,
+    "partes": {
+      "demandante": "anonimizado",
+      "demandado": "anonimizado"
+    },
+    "texto": "Incumplimiento arrendamiento",
+    "fallo": null,
+    "monto_demanda": null,
+    "tags": [
+      []
+    ],
+    "metadata": {
+      "fecha_scraping": "2026-02-23T17:11:56.453Z",
+      "url_fuente": "",
+      "idioma": "es-VE",
+      "version": "1.0"
+    },
+    "licencia": "CC0 1.0 Universal"
+  },
+  {
+    "id": "VEN-SEN-202602-000006",
+    "tipo": "sentencia",
+    "fuente": "TSJ",
+    "tribunal": "Tribunal Supremo de Justicia",
+    "fecha_documento": "2024-01-20",
+    "materia": "constitucional",
+    "submateria": null,
+    "partes": {
+      "demandante": "anonimizado",
+      "demandado": "anonimizado"
+    },
+    "texto": "Amparo constitucional",
+    "fallo": null,
+    "monto_demanda": null,
+    "tags": [
+      []
+    ],
+    "metadata": {
+      "fecha_scraping": "2026-02-23T17:11:56.453Z",
+      "url_fuente": "",
+      "idioma": "es-VE",
+      "version": "1.0"
+    },
+    "licencia": "CC0 1.0 Universal"
+  },
+  {
+    "id": "VEN-SEN-202602-000007",
+    "tipo": "sentencia",
+    "fuente": "TSJ",
+    "tribunal": "Tribunal Supremo de Justicia",
+    "fecha_documento": "2024-01-21",
+    "materia": "familia",
+    "submateria": null,
+    "partes": {
+      "demandante": "anonimizado",
+      "demandado": "anonimizado"
+    },
+    "texto": "Custodia menores",
+    "fallo": null,
+    "monto_demanda": null,
+    "tags": [
+      []
+    ],
+    "metadata": {
+      "fecha_scraping": "2026-02-23T17:11:56.453Z",
+      "url_fuente": "",
+      "idioma": "es-VE",
+      "version": "1.0"
+    },
+    "licencia": "CC0 1.0 Universal"
+  },
+  {
+    "id": "VEN-SEN-202602-000008",
+    "tipo": "sentencia",
+    "fuente": "TSJ",
+    "tribunal": "Tribunal Supremo de Justicia",
+    "fecha_documento": "2024-01-22",
+    "materia": "mercantil",
+    "submateria": null,
+    "partes": {
+      "demandante": "anonimizado",
+      "demandado": "anonimizado"
+    },
+    "texto": "Liquidacion mercantil",
+    "fallo": null,
+    "monto_demanda": null,
+    "tags": [
+      []
+    ],
+    "metadata": {
+      "fecha_scraping": "2026-02-23T17:11:56.453Z",
+      "url_fuente": "",
+      "idioma": "es-VE",
+      "version": "1.0"
+    },
+    "licencia": "CC0 1.0 Universal"
+  },
+  {
+    "id": "VEN-SEN-202602-000009",
+    "tipo": "sentencia",
+    "fuente": "TSJ",
+    "tribunal": "Tribunal Supremo de Justicia",
+    "fecha_documento": "2024-01-23",
+    "materia": "civil",
+    "submateria": null,
+    "partes": {
+      "demandante": "anonimizado",
+      "demandado": "anonimizado"
+    },
+    "texto": "Accidente transito",
+    "fallo": null,
+    "monto_demanda": null,
+    "tags": [
+      []
+    ],
+    "metadata": {
+      "fecha_scraping": "2026-02-23T17:11:56.453Z",
+      "url_fuente": "",
+      "idioma": "es-VE",
+      "version": "1.0"
+    },
+    "licencia": "CC0 1.0 Universal"
+  },
+  {
+    "id": "VEN-SEN-202602-000010",
+    "tipo": "sentencia",
+    "fuente": "TSJ",
+    "tribunal": "Tribunal Supremo de Justicia",
+    "fecha_documento": "2024-01-24",
+    "materia": "tributario",
+    "submateria": null,
+    "partes": {
+      "demandante": "anonimizado",
+      "demandado": "anonimizado"
+    },
+    "texto": "Recurso tributario",
+    "fallo": null,
+    "monto_demanda": null,
+    "tags": [
+      []
+    ],
+    "metadata": {
+      "fecha_scraping": "2026-02-23T17:11:56.453Z",
+      "url_fuente": "",
+      "idioma": "es-VE",
+      "version": "1.0"
+    },
+    "licencia": "CC0 1.0 Universal"
+  },
+  {
+    "id": "VEN-SEN-202602-000011",
+    "tipo": "sentencia",
+    "fuente": "TSJ",
+    "tribunal": "Tribunal Supremo de Justicia",
+    "fecha_documento": "2024-01-25",
+    "materia": "laboral",
+    "submateria": null,
+    "partes": {
+      "demandante": "anonimizado",
+      "demandado": "anonimizado"
+    },
+    "texto": "Indemnizacion despido",
+    "fallo": null,
+    "monto_demanda": null,
+    "tags": [
+      []
+    ],
+    "metadata": {
+      "fecha_scraping": "2026-02-23T17:11:56.453Z",
+      "url_fuente": "",
+      "idioma": "es-VE",
+      "version": "1.0"
+    },
+    "licencia": "CC0 1.0 Universal"
+  },
+  {
+    "id": "VEN-SEN-202602-000012",
+    "tipo": "sentencia",
+    "fuente": "TSJ",
+    "tribunal": "Tribunal Supremo de Justicia",
+    "fecha_documento": "2024-01-26",
+    "materia": "familia",
+    "submateria": null,
+    "partes": {
+      "demandante": "anonimizado",
+      "demandado": "anonimizado"
+    },
+    "texto": "Pension alimenticia",
+    "fallo": null,
+    "monto_demanda": null,
+    "tags": [
+      []
+    ],
+    "metadata": {
+      "fecha_scraping": "2026-02-23T17:11:56.453Z",
+      "url_fuente": "",
+      "idioma": "es-VE",
+      "version": "1.0"
+    },
+    "licencia": "CC0 1.0 Universal"
+  },
+  {
+    "id": "VEN-SEN-202602-000013",
+    "tipo": "sentencia",
+    "fuente": "TSJ",
+    "tribunal": "Tribunal Supremo de Justicia",
+    "fecha_documento": "2024-01-27",
+    "materia": "penal",
+    "submateria": null,
+    "partes": {
+      "demandante": "anonimizado",
+      "demandado": "anonimizado"
+    },
+    "texto": "Lesiones personales",
+    "fallo": null,
+    "monto_demanda": null,
+    "tags": [
+      []
+    ],
+    "metadata": {
+      "fecha_scraping": "2026-02-23T17:11:56.453Z",
+      "url_fuente": "",
+      "idioma": "es-VE",
+      "version": "1.0"
+    },
+    "licencia": "CC0 1.0 Universal"
+  },
+  {
+    "id": "VEN-SEN-202602-000014",
+    "tipo": "sentencia",
+    "fuente": "TSJ",
+    "tribunal": "Tribunal Supremo de Justicia",
+    "fecha_documento": "2024-01-28",
+    "materia": "civil",
+    "submateria": null,
+    "partes": {
+      "demandante": "anonimizado",
+      "demandado": "anonimizado"
+    },
+    "texto": "Compraventa inmueble",
+    "fallo": null,
+    "monto_demanda": null,
+    "tags": [
+      []
+    ],
+    "metadata": {
+      "fecha_scraping": "2026-02-23T17:11:56.453Z",
+      "url_fuente": "",
+      "idioma": "es-VE",
+      "version": "1.0"
+    },
+    "licencia": "CC0 1.0 Universal"
+  },
+  {
+    "id": "VEN-SEN-202602-000015",
+    "tipo": "sentencia",
+    "fuente": "TSJ",
+    "tribunal": "Tribunal Supremo de Justicia",
+    "fecha_documento": "2024-01-29",
+    "materia": "administrativo",
+    "submateria": null,
+    "partes": {
+      "demandante": "anonimizado",
+      "demandado": "anonimizado"
+    },
+    "texto": "Nulidad administrativa",
+    "fallo": null,
+    "monto_demanda": null,
+    "tags": [
+      []
+    ],
+    "metadata": {
+      "fecha_scraping": "2026-02-23T17:11:56.453Z",
+      "url_fuente": "",
+      "idioma": "es-VE",
+      "version": "1.0"
+    },
+    "licencia": "CC0 1.0 Universal"
+  },
+  {
+    "id": "VEN-SEN-202602-000016",
+    "tipo": "sentencia",
+    "fuente": "TSJ",
+    "tribunal": "Tribunal Supremo de Justicia",
+    "fecha_documento": "2024-01-30",
+    "materia": "mercantil",
+    "submateria": null,
+    "partes": {
+      "demandante": "anonimizado",
+      "demandado": "anonimizado"
+    },
+    "texto": "Contrato comercial",
+    "fallo": null,
+    "monto_demanda": null,
+    "tags": [
+      []
+    ],
+    "metadata": {
+      "fecha_scraping": "2026-02-23T17:11:56.453Z",
+      "url_fuente": "",
+      "idioma": "es-VE",
+      "version": "1.0"
+    },
+    "licencia": "CC0 1.0 Universal"
+  },
+  {
+    "id": "VEN-SEN-202602-000017",
+    "tipo": "sentencia",
+    "fuente": "TSJ",
+    "tribunal": "Tribunal Supremo de Justicia",
+    "fecha_documento": "2024-01-31",
+    "materia": "familia",
+    "submateria": null,
+    "partes": {
+      "demandante": "anonimizado",
+      "demandado": "anonimizado"
+    },
+    "texto": "Violencia intrafamiliar",
+    "fallo": null,
+    "monto_demanda": null,
+    "tags": [
+      []
+    ],
+    "metadata": {
+      "fecha_scraping": "2026-02-23T17:11:56.454Z",
+      "url_fuente": "",
+      "idioma": "es-VE",
+      "version": "1.0"
+    },
+    "licencia": "CC0 1.0 Universal"
+  },
+  {
+    "id": "VEN-SEN-202602-000018",
+    "tipo": "sentencia",
+    "fuente": "TSJ",
+    "tribunal": "Tribunal Supremo de Justicia",
+    "fecha_documento": "2024-01-32",
+    "materia": "penal",
+    "submateria": null,
+    "partes": {
+      "demandante": "anonimizado",
+      "demandado": "anonimizado"
+    },
+    "texto": "Extorsion",
+    "fallo": null,
+    "monto_demanda": null,
+    "tags": [
+      []
+    ],
+    "metadata": {
+      "fecha_scraping": "2026-02-23T17:11:56.454Z",
+      "url_fuente": "",
+      "idioma": "es-VE",
+      "version": "1.0"
+    },
+    "licencia": "CC0 1.0 Universal"
+  },
+  {
+    "id": "VEN-SEN-202602-000019",
+    "tipo": "sentencia",
+    "fuente": "TSJ",
+    "tribunal": "Tribunal Supremo de Justicia",
+    "fecha_documento": "2024-01-33",
+    "materia": "tributario",
+    "submateria": null,
+    "partes": {
+      "demandante": "anonimizado",
+      "demandado": "anonimizado"
+    },
+    "texto": "Impuesto renta",
+    "fallo": null,
+    "monto_demanda": null,
+    "tags": [
+      []
+    ],
+    "metadata": {
+      "fecha_scraping": "2026-02-23T17:11:56.454Z",
+      "url_fuente": "",
+      "idioma": "es-VE",
+      "version": "1.0"
+    },
+    "licencia": "CC0 1.0 Universal"
+  },
+  {
+    "id": "VEN-SEN-202602-000020",
+    "tipo": "sentencia",
+    "fuente": "TSJ",
+    "tribunal": "Tribunal Supremo de Justicia",
+    "fecha_documento": "2024-01-34",
+    "materia": "civil",
+    "submateria": null,
+    "partes": {
+      "demandante": "anonimizado",
+      "demandado": "anonimizado"
+    },
+    "texto": "Cobro Bolivares",
+    "fallo": null,
+    "monto_demanda": null,
+    "tags": [
+      []
+    ],
+    "metadata": {
+      "fecha_scraping": "2026-02-23T17:11:56.454Z",
+      "url_fuente": "",
+      "idioma": "es-VE",
+      "version": "1.0"
+    },
+    "licencia": "CC0 1.0 Universal"
+  }
+]

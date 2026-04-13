@@ -1,36 +1,12 @@
 // src/lib/supabase.ts
 import { createClient } from '@supabase/supabase-js';
 
-// Detectar si estamos en el cliente o servidor
-const isBrowser = typeof window !== 'undefined';
+// ============================================
+// CLIENTE PARA EL NAVEGADOR (React)
+// ============================================
+const supabaseUrl = import.meta.env.PUBLIC_SUPABASE_URL;
+const supabaseAnonKey = import.meta.env.PUBLIC_SUPABASE_ANON_KEY;
 
-// En cliente, usar PUBLIC_ variables
-// En servidor, usar las normales
-const supabaseUrl = isBrowser
-  ? import.meta.env.PUBLIC_SUPABASE_URL
-  : import.meta.env.SUPABASE_URL;
-
-const supabaseAnonKey = isBrowser
-  ? import.meta.env.PUBLIC_SUPABASE_ANON_KEY
-  : import.meta.env.SUPABASE_ANON_KEY;
-
-// Debug (solo en desarrollo)
-if (import.meta.env.DEV) {
-  console.log(`🔧 Inicializando Supabase en ${isBrowser ? 'cliente' : 'servidor'}`);
-  console.log(`  URL: ${supabaseUrl ? '✅' : '❌'}`);
-  console.log(`  Key: ${supabaseAnonKey ? '✅' : '❌'}`);
-}
-
-if (!supabaseUrl || !supabaseAnonKey) {
-  // En el cliente, no lanzar error fatal para que el componente pueda mostrar un mensaje amigable
-  if (isBrowser) {
-    console.error('⚠️ Supabase no configurado en el cliente. Verifica PUBLIC_SUPABASE_URL y PUBLIC_SUPABASE_ANON_KEY');
-  } else {
-    throw new Error('Missing Supabase environment variables');
-  }
-}
-
-// Crear cliente solo si tenemos las variables
 export const supabase = supabaseUrl && supabaseAnonKey
   ? createClient(supabaseUrl, supabaseAnonKey, {
       auth: {
@@ -41,12 +17,43 @@ export const supabase = supabaseUrl && supabaseAnonKey
     })
   : null;
 
-// Cliente admin solo para servidor
-export const supabaseAdmin = !isBrowser && supabaseUrl && import.meta.env.SUPABASE_SERVICE_ROLE_KEY
-  ? createClient(supabaseUrl, import.meta.env.SUPABASE_SERVICE_ROLE_KEY)
-  : null;
+// ============================================
+// CLIENTE PARA EL SERVIDOR - CORREGIDO
+// ============================================
+// En Astro, las variables de entorno están en import.meta.env también
+let supabaseAdminInstance: any = null;
 
-// Helper para verificar si Supabase está disponible
+export function getSupabaseAdmin() {
+  // Si ya tenemos una instancia, devolverla
+  if (supabaseAdminInstance) {
+    return supabaseAdminInstance;
+  }
+  
+  // En Astro, usar import.meta.env para todo (cliente y servidor)
+  // Las variables sin PUBLIC_ también están disponibles en el servidor
+  const supabaseAdminUrl = import.meta.env.SUPABASE_URL;
+  const supabaseServiceKey = import.meta.env.SUPABASE_SERVICE_ROLE_KEY;
+  
+  console.log('🔧 [getSupabaseAdmin] Variables disponibles:');
+  console.log('  SUPABASE_URL:', supabaseAdminUrl ? '✅' : '❌');
+  console.log('  SUPABASE_SERVICE_ROLE_KEY:', supabaseServiceKey ? '✅' : '❌');
+  
+  if (!supabaseAdminUrl || !supabaseServiceKey) {
+    throw new Error('Faltan variables de Supabase para el servidor. Asegúrate de tener SUPABASE_URL y SUPABASE_SERVICE_ROLE_KEY en .env');
+  }
+  
+  supabaseAdminInstance = createClient(supabaseAdminUrl, supabaseServiceKey, {
+    auth: {
+      persistSession: false,
+      autoRefreshToken: false,
+      detectSessionInUrl: false
+    }
+  });
+  
+  return supabaseAdminInstance;
+}
+
+// Helper para verificar configuración
 export const isSupabaseAvailable = () => !!supabase;
 
 // Tipos (sin cambios)
